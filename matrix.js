@@ -12,6 +12,7 @@ var flipMajorDiagonal = function(matrix) {
       matrix[j][i] = temp;
     }
   }
+  
   return matrix;
 }
 
@@ -24,7 +25,7 @@ var reverseEachRow = function(matrix) {
     for (let i = 0; i < matrix.length; i++) {
         matrix[i].reverse();
     }
-    return matrix;
+    // return matrix;
 }
 
 var matrixInput = [
